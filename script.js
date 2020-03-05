@@ -1,7 +1,14 @@
 const pi = Math.PI;
 
+/*calculation perimeter*/
 function calculation() {
     var input = document.getElementById('diameter').value;
-    var answer = input * pi;
-    document.getElementById("answer").innerText = answer;
+    var answerPer = input * pi;
+    document.getElementById("answerPer").innerText = answerPer;
+
+    var answerSur = input * input * pi * 0.25;
+    document.getElementById("answerSur").innerText = answerSur;
+
 }
+
+
